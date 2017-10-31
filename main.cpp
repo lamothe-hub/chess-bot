@@ -16,7 +16,7 @@ void gameLoop();
 int main() {
     gameStarter(); //accepts player names
     welcomeScreen(); //prints initial board
-    gameLoop(); //
+    gameLoop(); //executes main game 
 }
 
 void gameStarter(){
