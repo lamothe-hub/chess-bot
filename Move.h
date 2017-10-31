@@ -22,9 +22,9 @@ public:
 
     //Default Constructor
     Move() {
-        newX = NULL;
-        newY = NULL;
-        doesCapture = NULL;
+        newX = -1;
+        newY = -1;
+        doesCapture = -1;
     }
 
     //Sets the x and y coordinates of the move
